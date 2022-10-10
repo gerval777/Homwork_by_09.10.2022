@@ -96,16 +96,12 @@ public class Main {
         //Задание 2.4
         System.out.println("Задание 2.4");
 
-        int firstFriday = 3;
-        int date = 0;
+        int firstFriday = 4;
+        int date = firstFriday;
         int month = 31;
 
         while (date <= month) {
-            date += firstFriday;
-            firstFriday = 0;
-            if (date <= 31) {
                 System.out.println("Сегодня пятница, " + date + "-е число. Необходимо подготовить отчет.");
-            }
             date += 7;
         }
         System.out.println();
